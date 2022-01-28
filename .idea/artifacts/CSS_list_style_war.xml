@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CSS_list_style:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>CSS_list_style</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="CSS_list_style-1.0.war">
+      <element id="artifact" artifact-name="CSS_list_style:war exploded" />
+    </root>
+  </artifact>
+</component>

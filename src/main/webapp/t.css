@@ -1,0 +1,77 @@
+/*
+  Project name(项目名称)：CSS_list_style 
+  File name(文件名): t
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/28 
+  Time(创建时间)： 19:15
+  Version(版本): 1.0
+  Description(描述)：
+  list-style-type：设置列表项前面标记的形状（外观）；
+list-style-position：设置标记和列表中文本之间的距离；
+list-style-image：使用图像代替默认的标记；
+list-style：统一设置上面的三个属性。
+1. list-style-type
+使用 list-style-type 属性可以设置列表中每个列表项前标记的样式
+值	    描述
+none	无标记
+disc	默认值，标记为实心圆
+circle	将标记设置为空心圆
+square	将标记设置为实心方块
+decimal	将标记设置为数字
+decimal-leading-zero	将标记设置为以 0 开头的数字标记，例如 01、02、03
+lower-roman	将标记设置为小写罗马数字，例如 i、ii、iii、iv、v
+upper-roman	将标记设置为大写罗马数字，例如 I、II、III、IV、V
+lower-alpha	将标记设置为小写英文字母，例如 a、b、c、d、e
+upper-alpha	将标记设置为大写英文字母，例如 A、B、C、D、E
+lower-greek	将标记设置为小写希腊字母，例如 α、β、γ、δ、ε
+lower-latin	将标记设置为小写拉丁字母，例如 a、b、c、d、e
+upper-latin	将标记设置为大写拉丁字母，例如 A、B、C、D、E
+hebrew	将标记设置为传统的希伯来编号
+armenian	将标记设置为传统的亚美尼亚编号
+georgian	将标记设置为传统的乔治亚编号
+cjk-ideographic	将标记设置为中文数字，例如 一、二、三、四、五
+hiragana	将标记设置为日文平假名字符，例如 あ、い、う、え、お
+katakana	将标记设置为日文片假名字符，例如 ア、イ、ウ、エ、オ
+hiragana-iroha	将标记设置为日文平假名序号
+katakana-iroha	将标记设置为日文片假名序号
+
+
+2. list-style-position
+使用 list-style-position 属性可以设置在何处放置列表项前的标记
+值	    描述
+inside	列表项前的标记放置在之后的文本以内，列表项中的文本会根据标记对齐
+outside	默认值，保持标记位于文本的左侧，列表项前的标记放置在文本以外，并且列表项中的文本不会根据标记对齐
+inherit	从父元素继承 list-style-position 属性的值
+
+
+3. list-style-image
+通过 list-style-image 属性可以将列表项前的标记替换为一个图像
+值	    描述
+URL	图像的路径
+none	默认值，不显示任何图像
+inherit	从父元素继承 list-style-image 属性的值
+ */
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    float: left;
+}
+
+.ol_one {
+    list-style-type: lower-roman;
+}
+
+.ol_two {
+    list-style-type: lower-greek;
+}
+
+.ol_three {
+    list-style-type: georgian;
+}
+
+    
